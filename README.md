@@ -88,7 +88,9 @@ using `ssh -i ~/.ssh/udacity.rsa grader@35.159.31.182`
 
     from catalog import app as application
     application.secret_key = 'supersecretkey'
-    ```
+ ```
+    
+  
 5. Rename the `main.py` to `__init__.py`
 6. installing the virtual machine:
   - ` sudo pip install virtualenv`
